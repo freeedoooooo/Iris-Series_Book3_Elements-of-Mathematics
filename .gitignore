@@ -1,0 +1,129 @@
+# ========================
+# Jupyter Notebook / Lab
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+# 如果你希望提交 .ipynb 文件（如分享分析过程），请删除上一行
+# 否则只提交导出的 .py 或 .html
+
+# Jupyter runtime files
+jupyter_runtime/
+jupyterlab-settings/
+jupyterlab-workspaces/
+
+# ========================
+# Python
+# ========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.pyre/
+.pytype/
+coverage.xml
+coverage/
+nosetests.xml
+test.xml
+
+# ========================
+# Virtual environments
+# ========================
+# 如果你使用 venv, virtualenv, conda 等
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ========================
+# IDEs and editors
+# ========================
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Vim
+*.swp
+*.swo
+*.un~
+session.vim
+.netrwhist
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ========================
+# Logs and databases
+# ========================
+*.log
+*.sqlite
+*.sqlite3
+
+# ========================
+# Environment variables
+# ========================
+.env
+.env.local
+
+# ========================
+# Local development settings
+# ========================
+settings_local.py
+db.sqlite3
